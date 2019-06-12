@@ -20,6 +20,6 @@ Start the app, it won't run.  Edit ~/.kivy/config.ini
 
 replace the [input] section with this (from https://kivy.org/doc/stable/installation/installation-rpi.html#using-official-rpi-touch-display):
 
-mouse = mouse
+`mouse = mouse
 mtdev_%(name)s = probesysfs,provider=mtdev
-hid_%(name)s = probesysfs,provider=hidinput
+hid_%(name)s = probesysfs,provider=hidinput`
