@@ -21,6 +21,7 @@ Start the app as root, it won't run.  Edit /root/.kivy/config.ini
 replace the [input] section with this (from https://kivy.org/doc/stable/installation/installation-rpi.html#using-official-rpi-touch-display):
 
 ```
+[input]
 mouse = mouse
 mtdev_%(name)s = probesysfs,provider=mtdev
 hid_%(name)s = probesysfs,provider=hidinput
